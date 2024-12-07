@@ -1,0 +1,189 @@
+/******************** WeDo Section CSS Start ***********************/
+.hlt_wedo.hlt_whitebg {
+	position: relative;
+	padding-bottom: 0px;
+}
+
+.hlt_wedo img.hlt_bgimg {
+	position: absolute;
+	top: 20%;
+	left: -100px;
+}
+
+.hlt_wedobox {
+	float: left;
+	width: 100%;
+	background-color: #ffffff;
+	border: 1px solid #d3d3d3;
+	padding: 70px 15px 40px 15px;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+	margin-bottom: 90px;
+}
+
+.hlt_wedobox:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -2;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.hlt_wedobox.clrs_01:after {
+	background-color: #ac69d8;
+}
+
+.hlt_wedobox.clrs_02:after {
+	background-color: #36c777;
+}
+
+.hlt_wedobox.clrs_03:after {
+	background-color: #d46b9a;
+}
+
+.hlt_wedobox.clrs_04:after {
+	background-color: #e78970;
+}
+
+.hlt_wedobox:hover:after {
+	opacity: 1;
+	visibility: visible;
+}
+
+.hlt_wedobox:hover h4,
+.hlt_wedobox:hover p {
+	color: #ffffff;
+}
+
+.hlt_wedobox .hlt_hexa {
+	width: 55px;
+	height: 90px;
+	background: #ffffff;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0px auto;
+	top: -45px;
+	line-height: 90px;
+	padding-top: 30px;
+}
+
+.hlt_wedobox .hlt_hexa:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: -25px;
+	width: 0;
+	height: 0;
+	border-top: 45px solid transparent;
+	border-bottom: 45px solid transparent;
+	border-right: 25px solid #ffffff;
+
+}
+
+.hlt_wedobox .hlt_hexa:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	right: -25px;
+	width: 0;
+	height: 0;
+	border-top: 45px solid transparent;
+	border-bottom: 45px solid transparent;
+	border-left: 25px solid #ffffff;
+}
+
+.hlt_wedobox .hlt_hexabk {
+	width: 57px;
+	height: 92px;
+	background: #d3d3d3;
+	position: absolute;
+	left: 0px;
+	right: 0;
+	margin: 0px auto;
+	top: -46px;
+	z-index: -1;
+}
+
+.hlt_wedobox .hlt_hexabk:before {
+	content: "";
+	position: absolute;
+	top: 1px;
+	left: -25px;
+	width: 0;
+	height: 0;
+	border-top: 45px solid transparent;
+	border-bottom: 45px solid transparent;
+	border-right: 25px solid #d3d3d3;
+}
+
+.hlt_wedobox .hlt_hexabk:after {
+	content: "";
+	position: absolute;
+	bottom: 1px;
+	right: -25px;
+	width: 0;
+	height: 0;
+	border-top: 45px solid transparent;
+	border-bottom: 45px solid transparent;
+	border-left: 25px solid #d3d3d3;
+}
+
+.hlt_wedobox .hlt_wedobox_bgimg {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0px auto;
+	top: 20%;
+	z-index: -1;
+}
+
+.hlt_wedobox:hover svg.hlt_wedobox_bgimg path {
+	fill: rgb(255, 255, 255);
+}
+
+.hlt_wedobox h4 {
+	float: left;
+	width: 100%;
+	margin: 0px 0px 10px 0px;
+	padding-bottom: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.hlt_wedobox h4:after {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0px auto;
+	background-color: #d3d3d3;
+	width: 60px;
+	height: 1px;
+	bottom: 0px;
+}
+
+.hlt_wedobox p {
+	float: left;
+	width: 100%;
+	margin: 0px;
+}
+
+.hlt_wedobox a {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0px auto;
+	bottom: -16px;
+	border: 1px solid #d3d3d3;
+	width: 70px;
+	padding: 3px;
+	border-radius: 50px;
+	background-color: #ffffff;
+}

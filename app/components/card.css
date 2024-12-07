@@ -1,0 +1,86 @@
+/* Event Card Styles */
+.hlt_upcmslider_info {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: 1px solid #d3d3d3;
+    padding: 20px;
+    position: relative;
+    text-align: left;
+  }
+  
+  .hlt_date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f3f3f3;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .hlt_date p {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .hlt_date span {
+    font-size: 14px;
+    color: #888888;
+  }
+  
+  .hlt_upcmslider_img img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .hlt_upcmslider_text h3 {
+    font-size: 18px;
+    margin: 0 0 10px;
+    font-weight: bold;
+  }
+  
+  .hlt_upcmslider_text h3 a {
+    color: #333333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .hlt_upcmslider_text h3 a:hover {
+    color: #007bff;
+  }
+  
+  .hlt_upcmslider_text ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .hlt_upcmslider_text ul li {
+    font-size: 14px;
+    color: #555555;
+    display: flex;
+    align-items: center;
+  }
+  
+  .hlt_upcmslider_text ul li a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .hlt_upcmslider_text ul li i {
+    margin-right: 5px;
+  }
+  
+  .hlt_upcmslider_text p {
+    font-size: 14px;
+    color: #666666;
+    margin: 0;
+  }
+  
